@@ -36,7 +36,7 @@ export default function Home() {
           <a href="#triana">Triana</a>
           <Link href="/historia">Historia</Link>
           <Link href="/horarios" className="nav-cta">
-            Horarios <span>↗</span>
+            Horarios <span></span>
           </Link>
         </nav>
       </header>
@@ -79,7 +79,7 @@ export default function Home() {
             <div className="hero-v2-actions">
               <Link href="/horarios" className="gold-button">
                 Ver horarios
-                <span>↗</span>
+                <span></span>
               </Link>
 
               <a href="#escuela" className="quiet-link">
@@ -262,7 +262,7 @@ export default function Home() {
               </div>
 
               <span className="discipline-v2-arrow">
-                ↗
+                
               </span>
 
             </article>
@@ -287,7 +287,7 @@ export default function Home() {
           </div>
 
           <Link href="/historia">
-            Conocer más <span>↗</span>
+            Conocer más <span></span>
           </Link>
 
         </div>
@@ -425,7 +425,7 @@ export default function Home() {
             </p>
 
             <Link href="/historia" className="underlined-link">
-              Nuestra historia <span>↗</span>
+              Nuestra historia <span></span>
             </Link>
 
           </div>
@@ -473,7 +473,7 @@ export default function Home() {
 
               <div className="show-v2-bottom">
                 <span>LA PIPI</span>
-                <i>↗</i>
+                <i></i>
               </div>
 
             </article>
@@ -584,7 +584,7 @@ export default function Home() {
 
             <Link href="/horarios">
               Ver horarios
-              <span>↗</span>
+              <span></span>
             </Link>
 
           </div>
@@ -622,7 +622,7 @@ export default function Home() {
 
         <Link href="/horarios" className="gold-button">
           Descubrir horarios
-          <span>↗</span>
+          <span></span>
         </Link>
 
       </section>
