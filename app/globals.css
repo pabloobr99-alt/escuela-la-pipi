@@ -5150,3 +5150,248 @@ img {
 
 }
 
+
+/* =========================================================
+   NORMAS DEL CENTRO · LA PIPI
+   ========================================================= */
+
+.normas-page {
+  background: var(--black);
+  color: var(--ivory);
+  overflow: hidden;
+}
+
+.normas-hero {
+  min-height: 82vh;
+  padding: 150px 8vw 110px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.normas-hero-number {
+  position: absolute;
+  top: 80px;
+  right: 8vw;
+  font-family: Georgia, serif;
+  font-size: clamp(7rem, 18vw, 16rem);
+  line-height: 0.8;
+  color: rgba(212, 175, 55, 0.08);
+  font-weight: 700;
+}
+
+.normas-eyebrow,
+.normas-intro-label,
+.norma-kicker {
+  letter-spacing: 0.2em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.normas-hero h1 {
+  margin: 28px 0 30px;
+  font-family: Georgia, serif;
+  font-size: clamp(4rem, 9vw, 9rem);
+  line-height: 0.84;
+  font-weight: 400;
+  letter-spacing: -0.055em;
+  position: relative;
+}
+
+.normas-hero h1 span {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.normas-intro {
+  max-width: 620px;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  line-height: 1.6;
+  color: rgba(241, 237, 228, 0.7);
+  position: relative;
+}
+
+.normas-intro-section {
+  background: var(--ivory);
+  color: var(--black);
+  padding: 110px 8vw;
+  display: grid;
+  grid-template-columns: 0.8fr 1.5fr;
+  gap: 10vw;
+}
+
+.normas-intro-copy {
+  max-width: 780px;
+}
+
+.normas-intro-copy p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(16, 16, 16, 0.7);
+}
+
+.normas-intro-copy .normas-lead {
+  font-family: Georgia, serif;
+  font-size: clamp(1.7rem, 3vw, 2.7rem);
+  line-height: 1.25;
+  color: var(--black);
+  margin: 0 0 30px;
+}
+
+.normas-lista {
+  padding: 90px 8vw;
+  background: var(--black);
+}
+
+.norma-card {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 7vw;
+  padding: 75px 0;
+  border-bottom: 1px solid rgba(241, 237, 228, 0.13);
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.norma-card:first-child {
+  border-top: 1px solid rgba(241, 237, 228, 0.13);
+}
+
+.norma-numero {
+  font-family: Georgia, serif;
+  font-size: clamp(3.5rem, 7vw, 7rem);
+  line-height: 0.8;
+  color: var(--gold);
+  opacity: 0.9;
+}
+
+.norma-contenido {
+  max-width: 820px;
+}
+
+.norma-contenido h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: 400;
+  margin: 12px 0 30px;
+  letter-spacing: -0.04em;
+}
+
+.norma-texto,
+.norma-detalle,
+.norma-extra {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(241, 237, 228, 0.78);
+  margin: 0 0 22px;
+}
+
+.norma-detalle {
+  color: rgba(241, 237, 228, 0.6);
+}
+
+.norma-extra {
+  border-left: 2px solid var(--gold);
+  padding-left: 24px;
+  color: var(--ivory);
+}
+
+.normas-cierre {
+  min-height: 65vh;
+  padding: 120px 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--ivory);
+  color: var(--black);
+}
+
+.normas-cierre-line {
+  width: 1px;
+  height: 90px;
+  background: var(--gold);
+  margin-bottom: 40px;
+}
+
+.normas-cierre p,
+.normas-cierre span {
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  font-weight: 700;
+  color: #004506;
+}
+
+.normas-cierre h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(5rem, 13vw, 12rem);
+  line-height: 0.72;
+  letter-spacing: -0.07em;
+  margin: 35px 0 50px;
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .normas-hero {
+    min-height: 75vh;
+    padding: 120px 7vw 80px;
+  }
+
+  .normas-hero-number {
+    top: 80px;
+    right: 7vw;
+    font-size: 7rem;
+  }
+
+  .normas-intro-section {
+    padding: 75px 7vw;
+    display: block;
+  }
+
+  .normas-intro-label {
+    margin-bottom: 45px;
+  }
+
+  .normas-lista {
+    padding: 45px 7vw;
+  }
+
+  .norma-card {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 55px 0;
+  }
+
+  .norma-numero {
+    font-size: 4rem;
+  }
+
+  .norma-contenido h2 {
+    font-size: 3rem;
+  }
+
+  .normas-cierre {
+    min-height: 55vh;
+    padding: 90px 7vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .normas-hero h1 {
+    font-size: 4rem;
+  }
+
+  .normas-hero {
+    min-height: 70vh;
+  }
+
+  .norma-texto,
+  .norma-detalle,
+  .norma-extra {
+    font-size: 0.98rem;
+  }
+}

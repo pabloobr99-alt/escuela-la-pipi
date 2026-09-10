@@ -28,7 +28,7 @@ export default function MenuDesplegable() {
           <div className="menu-dropdown-content">
 
             <div className="menu-dropdown-title">
-              <span>ESCUELA DE DANZA LA PIPI</span>
+              <span>ESCUELA DE FLAMENCO Y DANZA LA PIPI</span>
               <button onClick={cerrar} aria-label="Cerrar menú">
                 ×
               </button>
@@ -78,8 +78,14 @@ export default function MenuDesplegable() {
                 <b>→</b>
               </Link>
 
-              <Link href="/admin" onClick={cerrar}>
+              <Link href="/normas" onClick={cerrar}>
                 <span>07</span>
+                <strong>Normas del centro</strong>
+                <b>→</b>
+              </Link>
+
+              <Link href="/admin" onClick={cerrar}>
+                <span>08</span>
                 <strong>Administrador</strong>
                 <b>→</b>
               </Link>
