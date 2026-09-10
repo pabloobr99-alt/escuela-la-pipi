@@ -501,7 +501,7 @@ export default function AdminPage() {
 
         <div className="admin-logo">
           <span>ESCUELA DE DANZA</span>
-          <strong>SARA RUIZ</strong>
+          <strong>LA PIPI</strong>
           <em>“LA PIPI”</em>
         </div>
 
@@ -574,7 +574,7 @@ export default function AdminPage() {
 
               <div>
                 <span>
-                  ESCUELA DE DANZA SARA RUIZ “LA PIPI”
+                  ESCUELA DE DANZA LA PIPI
                 </span>
 
                 <h2>

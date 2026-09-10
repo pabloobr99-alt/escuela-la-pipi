@@ -5,7 +5,7 @@ export default function TiendaPage() {
     <main className="tienda-page">
       <section className="tienda-hero">
         <span className="tienda-kicker">
-          ESCUELA DE DANZA SARA RUIZ “LA PIPI”
+          ESCUELA DE DANZA LA PIPI
         </span>
 
         <h1>
@@ -85,7 +85,7 @@ export default function TiendaPage() {
         </p>
 
         <span>
-          ESCUELA DE DANZA SARA RUIZ “LA PIPI”
+          ESCUELA DE DANZA LA PIPI
         </span>
       </section>
 
@@ -106,7 +106,7 @@ export default function TiendaPage() {
       </section>
 
       <footer className="tienda-footer">
-        <span>ESCUELA DE DANZA SARA RUIZ “LA PIPI”</span>
+        <span>ESCUELA DE DANZA LA PIPI</span>
         <span>MONTEQUINTO · SEVILLA</span>
       </footer>
     </main>

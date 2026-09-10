@@ -28,7 +28,7 @@ export default function MenuDesplegable() {
           <div className="menu-dropdown-content">
 
             <div className="menu-dropdown-title">
-              <span>ESCUELA DE DANZA SARA RUIZ “LA PIPI”</span>
+              <span>ESCUELA DE DANZA LA PIPI</span>
               <button onClick={cerrar} aria-label="Cerrar menú">
                 ×
               </button>

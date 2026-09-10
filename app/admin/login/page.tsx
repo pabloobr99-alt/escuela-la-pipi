@@ -58,7 +58,7 @@ export default function AdminLoginPage() {
           <div className="admin-login-brand">
             <span>ESCUELA DE DANZA</span>
 
-            <strong>SARA RUIZ</strong>
+            <strong>LA PIPI</strong>
 
             <em>“LA PIPI”</em>
           </div>
@@ -81,7 +81,7 @@ export default function AdminLoginPage() {
 
           <p>
             Accede al espacio de administración
-            de la Escuela de Danza Sara Ruiz “La Pipi”.
+            de la Escuela de Flamenco y Danza La Pipi “La Pipi”.
           </p>
 
         </div>

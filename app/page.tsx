@@ -26,7 +26,7 @@ export default function Home() {
       <header className="nav">
         <Link href="/" className="nav-brand">
           <span>ESCUELA DE DANZA</span>
-          <strong>SARA RUIZ <i>“LA PIPI”</i></strong>
+          <strong>LA PIPI</strong>
         </Link>
 
         <nav className="nav-links">
@@ -52,7 +52,7 @@ export default function Home() {
 
         <div className="hero-v2-top">
           <span>MONTEQUINTO · SEVILLA</span>
-          <span>EST. SARA RUIZ “LA PIPI”</span>
+          <span>EST. LA PIPI</span>
         </div>
 
         <div className="hero-v2-main">
@@ -101,7 +101,7 @@ export default function Home() {
             <div className="hero-logo-image">
               <img
                 src="/images/logo-la-pipi.png"
-                alt="Escuela de Danza Sara Ruiz La Pipi"
+                alt="Escuela de Flamenco y Danza La Pipi La Pipi"
               />
             </div>
 
@@ -159,7 +159,7 @@ export default function Home() {
           </p>
 
           <p>
-            En la Escuela de Danza Sara Ruiz “La Pipi” entendemos
+            En la Escuela de Flamenco y Danza La Pipi “La Pipi” entendemos
             la danza como una forma de expresión, aprendizaje y
             crecimiento.
           </p>
@@ -171,7 +171,7 @@ export default function Home() {
 
           <div className="school-signature">
             <span>ESCUELA DE DANZA</span>
-            <strong>SARA RUIZ</strong>
+            <strong>LA PIPI</strong>
           </div>
 
         </div>
@@ -342,7 +342,7 @@ export default function Home() {
 
           <p>
             El puente, el río, sus dos orillas y todo aquello
-            que Sevilla despierta forman parte de la mirada de Sara.
+            que Sevilla despierta forman parte de la mirada de La Pipi.
           </p>
 
           <p>
@@ -398,7 +398,7 @@ export default function Home() {
               <br />
               marcha que
               <br />
-              Sara montó.
+              La Pipi montó.
             </strong>
 
             <div className="memory-card-line" />
@@ -414,7 +414,7 @@ export default function Home() {
             <p>
               “Alma de Triana” ocupa un lugar especial dentro
               de la historia de la escuela. Fue la primera marcha
-              que Sara montó y permanece ligada a una etapa
+              que La Pipi montó y permanece ligada a una etapa
               fundamental de su camino.
             </p>
 
@@ -615,7 +615,7 @@ export default function Home() {
         </h2>
 
         <p>
-          SARA RUIZ “LA PIPI”
+          LA PIPI
           <br />
           Montequinto · Dos Hermanas · Sevilla
         </p>
@@ -637,7 +637,7 @@ export default function Home() {
         <div className="footer-v2-brand">
           <span>ESCUELA DE DANZA</span>
           <strong>
-            SARA RUIZ <i>“LA PIPI”</i>
+            LA PIPI
           </strong>
         </div>
 

@@ -4509,3 +4509,644 @@ img {
     gap: 8px;
   }
 }
+
+/* =========================================================
+   HISTORIA LA PIPI — EDICIÓN PREMIUM
+   ========================================================= */
+
+.historia-page {
+  background: var(--black);
+  color: var(--ivory);
+  overflow: hidden;
+}
+
+.historia-hero {
+  min-height: 92vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 140px 9vw 100px;
+  background:
+    radial-gradient(circle at 78% 35%, rgba(212,175,55,.12), transparent 24%),
+    radial-gradient(circle at 15% 75%, rgba(0,69,6,.22), transparent 28%),
+    var(--black);
+  border-bottom: 1px solid rgba(212,175,55,.16);
+}
+
+.historia-hero::after {
+  content: "";
+  position: absolute;
+  left: 9vw;
+  bottom: 55px;
+  width: 1px;
+  height: 110px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(212,175,55,.65)
+  );
+}
+
+.historia-back {
+  position: absolute;
+  top: 35px;
+  left: 9vw;
+  z-index: 3;
+  color: rgba(241,237,228,.55);
+  font-size: 9px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  transition: color .3s ease;
+}
+
+.historia-back:hover {
+  color: var(--gold);
+}
+
+.historia-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+}
+
+.historia-hero-content > span,
+.historia-section > .historia-label,
+.historia-roots > span,
+.historia-final > span {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--gold);
+  font-size: 9px;
+  letter-spacing: .34em;
+  text-transform: uppercase;
+}
+
+.historia-hero h1 {
+  margin: 0;
+  max-width: 950px;
+  font-family: var(--serif);
+  font-size: clamp(64px, 9vw, 142px);
+  line-height: .83;
+  font-weight: 400;
+  letter-spacing: -.065em;
+}
+
+.historia-hero h1 em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.historia-hero p {
+  max-width: 500px;
+  margin: 45px 0 0;
+  color: rgba(241,237,228,.58);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.historia-hero-number {
+  position: absolute;
+  right: 8vw;
+  bottom: 7vh;
+  color: rgba(212,175,55,.16);
+  font-family: var(--serif);
+  font-size: clamp(120px, 18vw, 300px);
+  line-height: .7;
+  font-weight: 400;
+  letter-spacing: -.08em;
+}
+
+/* CAPÍTULOS */
+
+.historia-section {
+  padding: 150px 9vw;
+  background: var(--ivory);
+  color: var(--black);
+}
+
+.historia-section:nth-of-type(3) {
+  background: #e7e1d6;
+}
+
+.historia-section > .historia-label {
+  color: rgba(16,16,16,.45);
+}
+
+.historia-grid {
+  display: grid;
+  grid-template-columns: minmax(300px, .85fr) minmax(0, 1.15fr);
+  gap: 10vw;
+  align-items: center;
+}
+
+.historia-section:nth-of-type(3) .historia-grid {
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
+}
+
+.historia-memory {
+  min-height: 580px;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  padding: 38px;
+  background:
+    linear-gradient(145deg, rgba(255,255,255,.05), transparent 45%),
+    #004506;
+  box-shadow:
+    24px 24px 0 rgba(212,175,55,.13),
+    inset 0 0 0 1px rgba(212,175,55,.18);
+  overflow: hidden;
+}
+
+.historia-memory::before {
+  content: "LA PIPI";
+  position: absolute;
+  right: -20px;
+  bottom: -55px;
+  font-family: var(--serif);
+  font-size: 150px;
+  color: rgba(212,175,55,.07);
+  transform: rotate(-12deg);
+}
+
+.historia-memory::after {
+  content: "";
+  position: absolute;
+  inset: 20px;
+  border: 1px solid rgba(212,175,55,.17);
+  pointer-events: none;
+}
+
+.historia-memory-inner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.historia-memory-inner span {
+  font-size: 8px;
+  letter-spacing: .3em;
+  color: rgba(255,255,255,.55);
+}
+
+.historia-memory-inner strong {
+  font-family: var(--serif);
+  font-size: clamp(60px, 7vw, 105px);
+  line-height: .8;
+  font-weight: 400;
+  color: var(--ivory);
+}
+
+.historia-memory-inner i {
+  width: 70px;
+  height: 1px;
+  margin: 25px 0;
+  background: var(--gold);
+}
+
+.historia-memory-inner small {
+  font-size: 7px;
+  letter-spacing: .24em;
+  color: rgba(255,255,255,.4);
+}
+
+.historia-copy {
+  max-width: 650px;
+}
+
+.historia-kicker {
+  display: block;
+  margin-bottom: 25px;
+  color: rgba(16,16,16,.45);
+  font-size: 9px;
+  letter-spacing: .27em;
+}
+
+.historia-copy h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(46px, 5.2vw, 82px);
+  line-height: .91;
+  font-weight: 400;
+  letter-spacing: -.055em;
+}
+
+.historia-copy h2 em {
+  color: #004506;
+  font-style: italic;
+}
+
+.historia-line {
+  width: 90px;
+  height: 1px;
+  margin: 42px 0;
+  background: var(--gold);
+}
+
+.historia-copy p {
+  max-width: 610px;
+  margin: 0 0 24px;
+  color: rgba(16,16,16,.62);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.historia-copy p strong {
+  color: var(--black);
+  font-weight: 600;
+}
+
+.historia-lead {
+  color: var(--black) !important;
+  font-family: var(--serif);
+  font-size: 23px !important;
+  line-height: 1.45 !important;
+}
+
+/* RAÍCES */
+
+.historia-roots {
+  position: relative;
+  padding: 180px 9vw;
+  background:
+    radial-gradient(circle at 50% 30%, rgba(212,175,55,.1), transparent 30%),
+    linear-gradient(180deg, #111 0%, #090909 100%);
+  text-align: center;
+  overflow: hidden;
+}
+
+.historia-roots-glow {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(212,175,55,.06);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 80px rgba(212,175,55,.025),
+    0 0 0 160px rgba(212,175,55,.015);
+}
+
+.historia-roots > *:not(.historia-roots-glow) {
+  position: relative;
+  z-index: 2;
+}
+
+.historia-roots h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(54px, 7vw, 105px);
+  line-height: .88;
+  font-weight: 400;
+  letter-spacing: -.06em;
+}
+
+.historia-roots h2 em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.historia-roots > p {
+  max-width: 600px;
+  margin: 42px auto 0;
+  color: rgba(241,237,228,.55);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.historia-roots-text {
+  max-width: 760px;
+  margin: 80px auto 0;
+  text-align: left;
+  border-top: 1px solid rgba(212,175,55,.18);
+}
+
+.historia-roots-text p {
+  padding: 28px 0;
+  margin: 0;
+  border-bottom: 1px solid rgba(212,175,55,.12);
+  color: rgba(241,237,228,.58);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.historia-roots-text p:first-child {
+  color: var(--gold);
+  font-family: var(--serif);
+  font-size: 30px;
+}
+
+.historia-roots-text strong {
+  color: var(--ivory);
+}
+
+/* TIMELINE */
+
+.historia-timeline-section {
+  padding-top: 170px;
+  padding-bottom: 190px;
+}
+
+.historia-timeline-section h2 {
+  margin-bottom: 0;
+}
+
+.historia-timeline-section > p {
+  margin-top: 28px;
+  color: rgba(241,237,228,.45);
+}
+
+.historia-route {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  max-width: 1050px;
+  margin: 100px auto 0;
+  text-align: left;
+}
+
+.historia-route::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 22px;
+  height: 1px;
+  background: rgba(212,175,55,.25);
+}
+
+.historia-route > div {
+  position: relative;
+  padding: 60px 35px 30px 0;
+  margin-bottom: 55px;
+}
+
+.historia-route > div::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 0;
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--gold);
+  background: #101010;
+  border-radius: 50%;
+}
+
+.historia-route small {
+  display: block;
+  margin-bottom: 16px;
+  color: var(--gold);
+  font-size: 9px;
+  letter-spacing: .25em;
+}
+
+.historia-route strong {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--ivory);
+  font-family: var(--serif);
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.historia-route span {
+  display: block;
+  max-width: 230px;
+  color: rgba(241,237,228,.45);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* FINAL */
+
+.historia-final {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 70% 20%, rgba(212,175,55,.09), transparent 25%),
+    var(--black);
+  color: var(--ivory);
+  overflow: hidden;
+}
+
+.historia-final::before {
+  content: "06";
+  position: absolute;
+  right: -20px;
+  bottom: -70px;
+  color: rgba(212,175,55,.06);
+  font-family: var(--serif);
+  font-size: 360px;
+  line-height: .7;
+}
+
+.historia-final h2 {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(58px, 8vw, 125px);
+  line-height: .84;
+  font-weight: 400;
+  letter-spacing: -.065em;
+}
+
+.historia-final h2 em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.historia-final > p {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  margin: 45px 0 0;
+  color: rgba(241,237,228,.55);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.historia-signature {
+  position: relative;
+  z-index: 2;
+  margin-top: 75px;
+  padding-top: 25px;
+  border-top: 1px solid rgba(212,175,55,.25);
+  max-width: 400px;
+}
+
+.historia-signature span,
+.historia-signature small {
+  display: block;
+  color: rgba(241,237,228,.4);
+  font-size: 7px;
+  letter-spacing: .25em;
+}
+
+.historia-signature strong {
+  display: block;
+  margin: 8px 0;
+  color: var(--gold);
+  font-family: var(--serif);
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.historia-closing {
+  position: relative;
+  z-index: 2;
+  margin-top: 100px;
+  color: rgba(241,237,228,.3);
+  font-size: 8px;
+  letter-spacing: .3em;
+}
+
+.historia-closing strong {
+  display: block;
+  margin-top: 10px;
+  color: var(--gold);
+  font-size: 9px;
+  letter-spacing: .28em;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+  .historia-hero {
+    min-height: 80vh;
+    padding: 120px 7vw 90px;
+  }
+
+  .historia-back {
+    left: 7vw;
+  }
+
+  .historia-hero-number {
+    right: 6vw;
+    bottom: 7vh;
+    font-size: 150px;
+  }
+
+  .historia-section,
+  .historia-roots,
+  .historia-final {
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+
+  .historia-grid,
+  .historia-section:nth-of-type(3) .historia-grid {
+    grid-template-columns: 1fr;
+    gap: 70px;
+  }
+
+  .historia-memory {
+    min-height: 470px;
+  }
+
+  .historia-route {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .historia-route::before {
+    display: none;
+  }
+
+  .historia-route > div {
+    padding-top: 45px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .historia-hero {
+    min-height: 82vh;
+    padding: 115px 6vw 80px;
+  }
+
+  .historia-back {
+    left: 6vw;
+    top: 27px;
+  }
+
+  .historia-hero h1 {
+    font-size: clamp(58px, 17vw, 92px);
+  }
+
+  .historia-hero p {
+    font-size: 14px;
+    margin-top: 35px;
+  }
+
+  .historia-hero-number {
+    font-size: 100px;
+    bottom: 45px;
+  }
+
+  .historia-section,
+  .historia-roots,
+  .historia-final {
+    padding: 105px 6vw;
+  }
+
+  .historia-memory {
+    min-height: 390px;
+    padding: 28px;
+  }
+
+  .historia-memory::after {
+    inset: 15px;
+  }
+
+  .historia-memory-inner strong {
+    font-size: 60px;
+  }
+
+  .historia-copy h2,
+  .historia-roots h2 {
+    font-size: clamp(43px, 12vw, 65px);
+  }
+
+  .historia-copy p,
+  .historia-roots-text p,
+  .historia-final > p {
+    font-size: 14px;
+  }
+
+  .historia-route {
+    grid-template-columns: 1fr;
+    margin-top: 70px;
+  }
+
+  .historia-route > div {
+    margin-bottom: 20px;
+    padding: 38px 0 28px;
+    border-bottom: 1px solid rgba(212,175,55,.12);
+  }
+
+  .historia-final {
+    min-height: 85vh;
+  }
+
+  .historia-final h2 {
+    font-size: clamp(52px, 14vw, 78px);
+  }
+
+  .historia-final::before {
+    font-size: 220px;
+  }
+
+}
+

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Escuela de Danza Sara Ruiz "La Pipi"',
+  title: 'Escuela de Flamenco y Danza La Pipi "La Pipi"',
   description:
     'Escuela de danza en Montequinto, Sevilla. Flamenco, danza española, sevillanas y formación EFA.',
 };
