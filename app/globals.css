@@ -5658,3 +5658,426 @@ img {
 
 }
 
+
+/* =========================================================
+   LA PIPI · REDISEÑO MOBILE PREMIUM
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  /* =========================
+     BASE
+     ========================= */
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  section {
+    scroll-margin-top: 20px;
+  }
+
+  /* Eliminamos pequeños elementos decorativos que
+     ocupan espacio sin aportar navegación */
+  .cursor-dorado,
+  .abanico,
+  .bailaora,
+  .castanuelas,
+  .castanuelas-cursor,
+  .tacon,
+  .tacon-cursor {
+    display: none !important;
+  }
+
+  /* =========================
+     CONTENEDORES
+     ========================= */
+
+  .container,
+  .section-inner,
+  .hero-inner,
+  .content-inner {
+    width: calc(100% - 32px);
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* =========================
+     TIPOGRAFÍA
+     ========================= */
+
+  h1 {
+    font-size: clamp(3rem, 14vw, 5rem) !important;
+    line-height: .88 !important;
+    letter-spacing: -.055em !important;
+  }
+
+  h2 {
+    font-size: clamp(2.4rem, 10vw, 4rem) !important;
+    line-height: .92 !important;
+    letter-spacing: -.045em !important;
+  }
+
+  h3 {
+    font-size: 1.35rem !important;
+    line-height: 1.05 !important;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  /* =========================
+     MENÚ
+     ========================= */
+
+  .menu-trigger {
+    min-height: 52px;
+    padding: 0 17px;
+    font-size: 11px;
+    letter-spacing: .16em;
+  }
+
+  .menu-dropdown {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100vw !important;
+    height: 100dvh;
+    z-index: 9999;
+  }
+
+  .menu-dropdown-content {
+    width: 100%;
+    min-height: 100dvh;
+    padding: 24px 20px 28px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-dropdown-title {
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: .12em;
+  }
+
+  .menu-dropdown-links {
+    margin-top: 28px;
+    flex: 1;
+  }
+
+  .menu-dropdown-links a {
+    min-height: 58px;
+    padding: 13px 0;
+  }
+
+  .menu-dropdown-links strong {
+    font-size: 18px;
+  }
+
+  .menu-dropdown-links span {
+    font-size: 9px;
+  }
+
+  .menu-dropdown-bottom {
+    padding-top: 20px;
+    font-size: 8px;
+    line-height: 1.5;
+  }
+
+  /* =========================
+     HERO
+     ========================= */
+
+  .hero {
+    min-height: 100svh;
+    min-height: 100dvh;
+    padding: 110px 0 55px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .hero p {
+    max-width: 34rem;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* =========================
+     SECCIONES
+     ========================= */
+
+  .section {
+    padding: 88px 0 !important;
+  }
+
+  .section-header {
+    margin-bottom: 44px;
+  }
+
+  /* =========================
+     BLOQUES VISUALES
+     ========================= */
+
+  .image-full,
+  .section-image,
+  .hero-image {
+    width: 100% !important;
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  /* =========================
+     TARJETAS
+     ========================= */
+
+  .memory-card,
+  .card,
+  .feature-card,
+  .show-card {
+    width: 100%;
+    border-radius: 0 !important;
+  }
+
+  .memory-card {
+    padding: 34px 26px !important;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* =========================
+     GRIDS
+     ========================= */
+
+  .grid,
+  .cards-grid,
+  .features-grid,
+  .shows-grid,
+  .history-grid,
+  .timeline-grid,
+  .horarios,
+  .horarios-grid,
+  .schedule-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+  }
+
+  /* =========================
+     BOTONES
+     ========================= */
+
+  a.button,
+  .button,
+  .cta-button {
+    width: 100%;
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: .08em;
+  }
+
+  /* Evita botones pequeños */
+  button {
+    min-height: 48px;
+  }
+
+  /* =========================
+     TRIANA
+     ========================= */
+
+  #triana {
+    min-height: auto;
+  }
+
+  #triana img {
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+  }
+
+  /* =========================
+     ESPECTÁCULOS
+     ========================= */
+
+  .show-card img,
+  .shows-grid img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+  }
+
+  .show-card {
+    padding-bottom: 26px;
+  }
+
+  /* =========================
+     LAS CUATRO LUNAS
+     ========================= */
+
+  .cuatro-lunas,
+  .lunas-section {
+    min-height: auto;
+  }
+
+  /* =========================
+     HORARIOS
+     ========================= */
+
+  .horarios-grid,
+  .schedule-grid {
+    width: 100%;
+  }
+
+  /* Las clases ocupan todo el ancho */
+  .horario,
+  .schedule-card,
+  .class-card {
+    width: 100%;
+    min-height: 100px;
+    padding: 22px 20px;
+  }
+
+  /* =========================
+     HISTORIA
+     ========================= */
+
+  .timeline {
+    padding-left: 0 !important;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 26px;
+  }
+
+  /* =========================
+     NORMAS
+     ========================= */
+
+  .normas-hero {
+    min-height: 82svh !important;
+    padding: 110px 20px 70px !important;
+  }
+
+  .normas-hero h1 {
+    font-size: clamp(3.4rem, 16vw, 5.5rem) !important;
+    line-height: .86 !important;
+  }
+
+  .normas-intro,
+  .normas-list,
+  .normas-cierre {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .norma {
+    display: grid !important;
+    grid-template-columns: 54px 1fr !important;
+    gap: 16px !important;
+    padding: 32px 0 !important;
+  }
+
+  .norma-numero {
+    font-size: 32px !important;
+  }
+
+  /* =========================
+     FOOTER
+     ========================= */
+
+  footer {
+    padding: 55px 20px 35px !important;
+  }
+
+  footer p,
+  footer span {
+    line-height: 1.5;
+  }
+
+  /* =========================
+     OCULTAR ELEMENTOS VACÍOS
+     ========================= */
+
+  .mobile-decoration,
+  .decoracion-mobile,
+  .small-decoration,
+  .empty-space-mobile {
+    display: none !important;
+  }
+
+}
+
+/* =========================================================
+   MÓVILES PEQUEÑOS
+   ========================================================= */
+
+@media (max-width: 390px) {
+
+  .container,
+  .section-inner,
+  .hero-inner,
+  .content-inner {
+    width: calc(100% - 26px);
+  }
+
+  h1 {
+    font-size: clamp(2.7rem, 13vw, 4rem) !important;
+  }
+
+  h2 {
+    font-size: 2.25rem !important;
+  }
+
+  .section {
+    padding: 72px 0 !important;
+  }
+
+  .menu-dropdown-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+}
+
+/* =========================================================
+   ELIMINAR EMOJIS VISUALES / ICONOS DECORATIVOS
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .emoji,
+  .emoticon,
+  .emoji-decoration,
+  .mobile-emoji {
+    display: none !important;
+  }
+
+}
